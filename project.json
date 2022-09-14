@@ -1,12 +1,11 @@
 {
-  "name": "BlankProcess118",
+  "name": "BlankProcess121",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.12.3]",
-    "UiPath.Mail.Activities": "[1.15.2]",
     "UiPath.System.Activities": "[22.4.1]",
-    "UiPath.UIAutomation.Activities": "[22.4.5]"
+    "UiPath.UIAutomation.Activities": "[22.4.5]",
+    "UiPath.WebAPI.Activities": "[1.11.1]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -18,7 +17,7 @@
     "netFrameworkLazyLoading": false,
     "isPausable": true,
     "isAttended": false,
-    "requiresUserInteraction": true,
+    "requiresUserInteraction": false,
     "supportsPersistence": false,
     "excludedLoggedData": [
       "Private:*",
@@ -27,8 +26,7 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": true,
-    "pipType": "ChildSession"
+    "mustRestoreAllDependencies": true
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -43,15 +41,11 @@
     "fileInfoCollection": [],
     "modernBehavior": false
   },
-  "arguments": {
-    "input": [],
-    "output": []
-  },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "dd3912c9-69cf-4d29-b11a-2a9b59add234",
+      "uniqueId": "163ac763-3705-45bd-b72d-dd1d6f08e59d",
       "input": [],
       "output": []
     }
@@ -59,5 +53,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Legacy"
+  "targetFramework": "Portable"
 }
